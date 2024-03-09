@@ -14,9 +14,7 @@ const FormHeader = () => {
         Quiz App
       </span>
       <img src={background} alt="Quiz App" className="w-full rounded-tr-[10px] rounded-tl-[10px] " />
-      <div className="absolute w-full h-full bg-[rgba(54,84,99,0.7)] rounded-tl-[10px] rounded-tr-[10px] " >
-
-      </div>
+      <div className="absolute w-full h-full bg-[rgba(54,84,99,0.7)] rounded-tl-[10px] rounded-tr-[10px] " ></div>
     </div>
   )
 }
