@@ -4,13 +4,15 @@ import background from '../../assets/images/bg.png'
 const FormHeader = () => {
   return (
     <div className="w-full flex items-center justify-center relative rounded-[10px] " >
-      <div className="absolute top-5 left-5 z-[10] flex items-center gap-3 " >
+      <div className="absolute flex items-center top-5 left-5 z-[10] gap-3 " >
         <a href="#" target="_blank" rel="noreferrer" >
           <LogoGithub color={"fff"} width="25px" height="25px" cssClasses="cursor-pointer" />
+        </a>
+        <a href="#" target="_blank" rel="noreferrer" >
           <GlobeOutline color={"fff"} width="25px" height="25px" cssClasses="cursor-pointer" />
         </a>
       </div>
-      <span className="absolute text-3xl text-white font-medium left-1/2 bottom-1/2 translate-x-[50%] translate-y-[50%] rounded-tl-[10px] " >
+      <span className="absolute text-3xl text-white font-medium left-1/2 bottom-1/2 translate-x-[-50%] translate-y-[-50%] rounded-tl-[10px] z-[50] " >
         Quiz App
       </span>
       <img src={background} alt="Quiz App" className="w-full rounded-tr-[10px] rounded-tl-[10px] " />
